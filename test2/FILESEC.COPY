@@ -1,0 +1,17 @@
+ *    * Account analyzed THIS SHOULD COME UP FROM REORG2
+       FD  RATE-DATA.
+       01  RATE-RECORD.
+           05  TYPE-ACCT-IN        PIC X(4).
+           05  FILLER              PIC X.
+           05  RATE-IN             PIC 9(3),9(2).
+           05  FILLER              PIC X.
+           05  MAX-SAVING-IN       PIC 9(5).
+           05  FILLER              PIC X.
+           05  DESCRIPTION-IN      PIC X(32).
+ *    * Account analyzed with key
+       FD  RATE-DATA-OUT.
+       01  RATE-DATA-OUT-RECORD.
+           05  TYPE-ACCT-OUT       PIC X(4).
+           05  RATE-OUT            PIC 999V99.
+           05  MAX-SAVING-OUT      PIC 9(5).
+           05  DESCRIPTION-OUT     PIC X(32).

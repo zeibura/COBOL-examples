@@ -1,0 +1,12 @@
+{
+    "pgms": [
+      {
+        "program": "proctest\\reorg1.cob",
+        "pgroup": "GROUP1"
+      },
+      {
+        "program": "proctest\\reorg2.cob",
+        "pgroup": "GROUP2"
+      }
+    ]
+  }
